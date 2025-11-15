@@ -1,47 +1,47 @@
 [
   {
     "id": "client_001",
-    "name": "John Smith",
-    "email": "john.smith@email.com",
-    "phone": "+1-555-0101",
-    "address": "123 Main St, Springfield, IL 62701",
-    "company": "Smith & Co",
-    "created_at": "2025-10-16T19:30:01.248963"
+    "name": "Rahman Ahmed",
+    "email": "rahman.ahmed@grameen.com.bd",
+    "phone": "+880-1712-345678",
+    "address": "House 45, Road 12, Dhanmondi, Dhaka-1209",
+    "company": "Grameen Tech Solutions",
+    "created_at": "2025-10-16T19:44:19.756234"
   },
   {
     "id": "client_002",
-    "name": "Sarah Johnson",
-    "email": "sarah.j@techcorp.com",
-    "phone": "+1-555-0102",
-    "address": "456 Oak Avenue, Chicago, IL 60601",
-    "company": "TechCorp Inc",
-    "created_at": "2025-10-21T19:30:01.248975"
+    "name": "Fatima Begum",
+    "email": "fatima.b@waltonbd.com",
+    "phone": "+880-1856-234567",
+    "address": "Plot 23, Gulshan Avenue, Gulshan-2, Dhaka-1212",
+    "company": "Walton Electronics Ltd",
+    "created_at": "2025-10-21T19:44:19.756246"
   },
   {
     "id": "client_003",
-    "name": "Michael Brown",
-    "email": "m.brown@email.com",
-    "phone": "+1-555-0103",
-    "address": "789 Pine Road, Boston, MA 02101",
+    "name": "Kamal Hossain",
+    "email": "k.hossain@gmail.com",
+    "phone": "+880-1923-456789",
+    "address": "Flat 3B, Uttara Apartment, Sector 7, Uttara, Dhaka-1230",
     "company": null,
-    "created_at": "2025-10-26T19:30:01.248978"
+    "created_at": "2025-10-26T19:44:19.756249"
   },
   {
     "id": "client_004",
-    "name": "Emily Davis",
-    "email": "emily.davis@design.com",
-    "phone": "+1-555-0104",
-    "address": "321 Elm Street, Austin, TX 78701",
-    "company": "Davis Design Studio",
-    "created_at": "2025-10-31T19:30:01.248980"
+    "name": "Nasrin Akter",
+    "email": "nasrin.akter@bdjobs.com",
+    "phone": "+880-1734-567890",
+    "address": "House 78, CDA Avenue, Nasirabad, Chittagong-4220",
+    "company": "BD Digital Services",
+    "created_at": "2025-10-31T19:44:19.756251"
   },
   {
     "id": "client_005",
-    "name": "Robert Wilson",
-    "email": "rwilson@email.com",
-    "phone": "+1-555-0105",
-    "address": "654 Maple Drive, Seattle, WA 98101",
+    "name": "Habibur Rahman",
+    "email": "habib.rahman@yahoo.com",
+    "phone": "+880-1645-678901",
+    "address": "Mirpur-10, Block C, Road 5, Dhaka-1216",
     "company": null,
-    "created_at": "2025-11-05T19:30:01.248982"
+    "created_at": "2025-11-05T19:44:19.756252"
   }
 ]

@@ -7,30 +7,48 @@
 
 ## Installation
 
-### 1. Backend Setup (Terminal 1)
+### Simple One-Command Setup (Recommended)
+
+```bash
+# Install backend dependencies
+cd backend
+pip install -r requirements.txt
+cd ..
+
+# Install frontend and start everything
+cd frontend
+npm install
+npm run dev
+```
+
+**That's it!** The `npm run dev` command automatically:
+- Creates sample data with Bangladeshi region information
+- Starts backend server at http://localhost:8000
+- Starts frontend at http://localhost:3000
+
+### Manual Setup (Alternative)
+
+**Backend (Terminal 1):**
 ```bash
 cd backend
 pip install -r requirements.txt
 python create_sample_data.py
 python main.py
 ```
-Server will start at: http://localhost:8000
-API Docs available at: http://localhost:8000/docs
 
-### 2. Frontend Setup (Terminal 2)
+**Frontend (Terminal 2):**
 ```bash
 cd frontend
 npm install
-npm run dev
+npm run next-dev
 ```
-Application will start at: http://localhost:3000
 
 ## Default Features & Sample Data
 
-### Pre-loaded Sample Data
-- **5 Clients** - Various business and individual profiles
+### Pre-loaded Sample Data (Bangladeshi Region)
+- **5 Clients** - Bangladeshi names, +880 phone numbers, Dhaka/Chittagong addresses, .bd emails
 - **7 Devices** - Different types in various repair stages
-- **4 Technicians** - Specialists in different areas
+- **4 Technicians** - Bangladeshi specialists with local contact info
 - **4 Invoices** - Mix of paid and unpaid
 - **3 SMS Logs** - Example client communications
 

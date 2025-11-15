@@ -37,47 +37,49 @@ A modern, full-stack SaaS application for tech repair and service companies to m
 
 ## 🔧 Installation & Setup
 
-### 1. Clone the Repository
+### Quick Start (Recommended)
 
 ```bash
+# Clone the repository
 git clone https://github.com/promaalfonsa/Client-management-system.git
 cd Client-management-system
-```
 
-### 2. Backend Setup
-
-```bash
-# Navigate to backend directory
+# Install backend dependencies
 cd backend
-
-# Install Python dependencies
 pip install -r requirements.txt
+cd ..
 
-# Create sample data
-python create_sample_data.py
-
-# Start the backend server
-python main.py
-```
-
-The backend API will be available at `http://localhost:8000`
-
-### 3. Frontend Setup
-
-Open a new terminal window:
-
-```bash
-# Navigate to frontend directory
+# Install frontend dependencies and start everything
 cd frontend
-
-# Install dependencies
 npm install
-
-# Start the development server
 npm run dev
 ```
 
-The frontend application will be available at `http://localhost:3000`
+**That's it!** The `npm run dev` command will automatically:
+- Create sample data with Bangladeshi region information
+- Start the backend server on port 8000
+- Start the frontend server on port 3000
+
+The application will be available at `http://localhost:3000`
+
+### Manual Setup (Alternative)
+
+If you prefer to run services separately:
+
+**Backend:**
+```bash
+cd backend
+pip install -r requirements.txt
+python create_sample_data.py
+python main.py
+```
+
+**Frontend (in a new terminal):**
+```bash
+cd frontend
+npm install
+npm run next-dev
+```
 
 ## 🎯 Usage
 
@@ -89,12 +91,12 @@ The frontend application will be available at `http://localhost:3000`
 
 ### Sample Data
 
-The application comes with pre-populated sample data:
-- **5 Clients** - Various business and individual clients
+The application comes with pre-populated sample data from the **Bangladeshi region**:
+- **5 Clients** - Bangladeshi names, phone numbers (+880), addresses (Dhaka, Chittagong), and .bd email domains
 - **7 Devices** - Mix of laptops, phones, tablets in different repair stages
-- **4 Technicians** - Specialists in different areas
+- **4 Technicians** - Bangladeshi tech specialists with local contact information
 - **4 Invoices** - Sample invoices with paid/unpaid status
-- **SMS Logs** - Example client communications
+- **SMS Logs** - Example client communications in local context
 
 ### Key Features
 

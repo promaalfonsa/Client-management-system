@@ -1,89 +1,89 @@
 import json
 from datetime import datetime, timedelta
 
-# Sample clients
+# Sample clients - Bangladeshi region
 clients = [
     {
         "id": "client_001",
-        "name": "John Smith",
-        "email": "john.smith@email.com",
-        "phone": "+1-555-0101",
-        "address": "123 Main St, Springfield, IL 62701",
-        "company": "Smith & Co",
+        "name": "Rahman Ahmed",
+        "email": "rahman.ahmed@grameen.com.bd",
+        "phone": "+880-1712-345678",
+        "address": "House 45, Road 12, Dhanmondi, Dhaka-1209",
+        "company": "Grameen Tech Solutions",
         "created_at": (datetime.now() - timedelta(days=30)).isoformat()
     },
     {
         "id": "client_002",
-        "name": "Sarah Johnson",
-        "email": "sarah.j@techcorp.com",
-        "phone": "+1-555-0102",
-        "address": "456 Oak Avenue, Chicago, IL 60601",
-        "company": "TechCorp Inc",
+        "name": "Fatima Begum",
+        "email": "fatima.b@waltonbd.com",
+        "phone": "+880-1856-234567",
+        "address": "Plot 23, Gulshan Avenue, Gulshan-2, Dhaka-1212",
+        "company": "Walton Electronics Ltd",
         "created_at": (datetime.now() - timedelta(days=25)).isoformat()
     },
     {
         "id": "client_003",
-        "name": "Michael Brown",
-        "email": "m.brown@email.com",
-        "phone": "+1-555-0103",
-        "address": "789 Pine Road, Boston, MA 02101",
+        "name": "Kamal Hossain",
+        "email": "k.hossain@gmail.com",
+        "phone": "+880-1923-456789",
+        "address": "Flat 3B, Uttara Apartment, Sector 7, Uttara, Dhaka-1230",
         "company": None,
         "created_at": (datetime.now() - timedelta(days=20)).isoformat()
     },
     {
         "id": "client_004",
-        "name": "Emily Davis",
-        "email": "emily.davis@design.com",
-        "phone": "+1-555-0104",
-        "address": "321 Elm Street, Austin, TX 78701",
-        "company": "Davis Design Studio",
+        "name": "Nasrin Akter",
+        "email": "nasrin.akter@bdjobs.com",
+        "phone": "+880-1734-567890",
+        "address": "House 78, CDA Avenue, Nasirabad, Chittagong-4220",
+        "company": "BD Digital Services",
         "created_at": (datetime.now() - timedelta(days=15)).isoformat()
     },
     {
         "id": "client_005",
-        "name": "Robert Wilson",
-        "email": "rwilson@email.com",
-        "phone": "+1-555-0105",
-        "address": "654 Maple Drive, Seattle, WA 98101",
+        "name": "Habibur Rahman",
+        "email": "habib.rahman@yahoo.com",
+        "phone": "+880-1645-678901",
+        "address": "Mirpur-10, Block C, Road 5, Dhaka-1216",
         "company": None,
         "created_at": (datetime.now() - timedelta(days=10)).isoformat()
     }
 ]
 
-# Sample technicians
+# Sample technicians - Bangladeshi region
 technicians = [
     {
         "id": "tech_001",
-        "name": "Alex Thompson",
-        "email": "alex.thompson@techservice.com",
-        "phone": "+1-555-0201",
+        "name": "Md. Ashraful Islam",
+        "email": "ashraf.islam@techservice.com.bd",
+        "phone": "+880-1712-987654",
         "specialization": "Laptop & Desktop Repair",
         "active": True,
         "created_at": (datetime.now() - timedelta(days=180)).isoformat()
     },
     {
         "id": "tech_002",
-        "name": "Jessica Martinez",
-        "email": "jessica.m@techservice.com",
-        "phone": "+1-555-0202",
+        "name": "Sharmin Sultana",
+        "email": "sharmin.s@techservice.com.bd",
+        "phone": "+880-1856-876543",
         "specialization": "Mobile & Tablet Repair",
         "active": True,
         "created_at": (datetime.now() - timedelta(days=150)).isoformat()
     },
     {
         "id": "tech_003",
-        "name": "David Lee",
-        "email": "david.lee@techservice.com",
-        "phone": "+1-555-0203",
+        "name": "Tanvir Ahmed",
+        "email": "tanvir.ahmed@techservice.com.bd",
+        "phone": "+880-1923-765432",
         "specialization": "Gaming Console & PC Building",
         "active": True,
         "created_at": (datetime.now() - timedelta(days=120)).isoformat()
     },
     {
         "id": "tech_004",
-        "name": "Lisa Anderson",
-        "email": "lisa.a@techservice.com",
-        "phone": "+1-555-0204",
+        "name": "Nusrat Jahan",
+        "email": "nusrat.j@techservice.com.bd",
+        "phone": "+880-1734-654321",
         "specialization": "Network & Server Setup",
         "active": True,
         "created_at": (datetime.now() - timedelta(days=90)).isoformat()

@@ -1,38 +1,38 @@
 [
   {
     "id": "tech_001",
-    "name": "Alex Thompson",
-    "email": "alex.thompson@techservice.com",
-    "phone": "+1-555-0201",
+    "name": "Md. Ashraful Islam",
+    "email": "ashraf.islam@techservice.com.bd",
+    "phone": "+880-1712-987654",
     "specialization": "Laptop & Desktop Repair",
     "active": true,
-    "created_at": "2025-05-19T19:30:01.248984"
+    "created_at": "2025-05-19T19:44:19.756270"
   },
   {
     "id": "tech_002",
-    "name": "Jessica Martinez",
-    "email": "jessica.m@techservice.com",
-    "phone": "+1-555-0202",
+    "name": "Sharmin Sultana",
+    "email": "sharmin.s@techservice.com.bd",
+    "phone": "+880-1856-876543",
     "specialization": "Mobile & Tablet Repair",
     "active": true,
-    "created_at": "2025-06-18T19:30:01.248986"
+    "created_at": "2025-06-18T19:44:19.756273"
   },
   {
     "id": "tech_003",
-    "name": "David Lee",
-    "email": "david.lee@techservice.com",
-    "phone": "+1-555-0203",
+    "name": "Tanvir Ahmed",
+    "email": "tanvir.ahmed@techservice.com.bd",
+    "phone": "+880-1923-765432",
     "specialization": "Gaming Console & PC Building",
     "active": true,
-    "created_at": "2025-07-18T19:30:01.248987"
+    "created_at": "2025-07-18T19:44:19.756275"
   },
   {
     "id": "tech_004",
-    "name": "Lisa Anderson",
-    "email": "lisa.a@techservice.com",
-    "phone": "+1-555-0204",
+    "name": "Nusrat Jahan",
+    "email": "nusrat.j@techservice.com.bd",
+    "phone": "+880-1734-654321",
     "specialization": "Network & Server Setup",
     "active": true,
-    "created_at": "2025-08-17T19:30:01.248989"
+    "created_at": "2025-08-17T19:44:19.756276"
   }
 ]

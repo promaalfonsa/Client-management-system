@@ -3,18 +3,18 @@
     "device_id": "device_002",
     "client_id": "client_002",
     "message": "Your iPhone 13 Pro repair is complete! Screen has been replaced. Total: $280.00. Ready for pickup.",
-    "sent_at": "2025-11-08T19:30:01.249038"
+    "sent_at": "2025-11-08T19:44:19.756314"
   },
   {
     "device_id": "device_005",
     "client_id": "client_005",
     "message": "Good news! Your iPad Air 5 has been repaired and is ready for pickup. Total: $80.00",
-    "sent_at": "2025-11-10T19:30:01.249040"
+    "sent_at": "2025-11-10T19:44:19.756315"
   },
   {
     "device_id": "device_001",
     "client_id": "client_001",
     "message": "Update: Your Dell XPS 15 repair is in progress. We've replaced the screen cable and battery. Estimated completion: 2 days.",
-    "sent_at": "2025-11-12T19:30:01.249042"
+    "sent_at": "2025-11-12T19:44:19.756317"
   }
 ]
