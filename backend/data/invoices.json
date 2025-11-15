@@ -1,0 +1,38 @@
+[
+  {
+    "id": "inv_001",
+    "device_id": "device_002",
+    "client_id": "client_002",
+    "amount": 280.0,
+    "description": "iPhone 13 Pro - Screen replacement and digitizer repair",
+    "created_at": "2025-11-08T19:30:01.249030",
+    "paid": true
+  },
+  {
+    "id": "inv_002",
+    "device_id": "device_005",
+    "client_id": "client_005",
+    "amount": 80.0,
+    "description": "iPad Air 5 - Charging port cleaning and software reset",
+    "created_at": "2025-11-10T19:30:01.249032",
+    "paid": true
+  },
+  {
+    "id": "inv_003",
+    "device_id": "device_001",
+    "client_id": "client_001",
+    "amount": 350.0,
+    "description": "Dell XPS 15 - Screen cable and battery replacement",
+    "created_at": "2025-11-13T19:30:01.249033",
+    "paid": false
+  },
+  {
+    "id": "inv_004",
+    "device_id": "device_004",
+    "client_id": "client_004",
+    "amount": 450.0,
+    "description": "MacBook Pro 16 - Keyboard replacement",
+    "created_at": "2025-11-14T19:30:01.249037",
+    "paid": false
+  }
+]

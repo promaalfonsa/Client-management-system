@@ -4,29 +4,41 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 
-interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
+interface CardProps {
   children: React.ReactNode;
   animate?: boolean;
+  className?: string;
+  onClick?: () => void;
 }
 
-export function Card({ children, className, animate = true, ...props }: CardProps) {
-  const Wrapper = animate ? motion.div : 'div';
+export function Card({ children, className, animate = true, onClick }: CardProps) {
+  if (animate) {
+    return (
+      <motion.div
+        className={cn(
+          'bg-white rounded-lg shadow-sm border border-gray-200 p-6',
+          className
+        )}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3 }}
+        onClick={onClick}
+      >
+        {children}
+      </motion.div>
+    );
+  }
   
   return (
-    <Wrapper
+    <div
       className={cn(
         'bg-white rounded-lg shadow-sm border border-gray-200 p-6',
         className
       )}
-      {...(animate && {
-        initial: { opacity: 0, y: 20 },
-        animate: { opacity: 1, y: 0 },
-        transition: { duration: 0.3 },
-      })}
-      {...props}
+      onClick={onClick}
     >
       {children}
-    </Wrapper>
+    </div>
   );
 }
 
