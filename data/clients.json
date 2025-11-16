@@ -1,0 +1,47 @@
+[
+  {
+    "id": "client_001",
+    "name": "Rahman Ahmed",
+    "email": "rahman.ahmed@grameen.com.bd",
+    "phone": "+880-1712-345678",
+    "address": "House 45, Road 12, Dhanmondi, Dhaka-1209",
+    "company": "Grameen Tech Solutions",
+    "created_at": "2025-10-16T21:00:19.577393"
+  },
+  {
+    "id": "client_002",
+    "name": "Fatima Begum",
+    "email": "fatima.b@waltonbd.com",
+    "phone": "+880-1856-234567",
+    "address": "Plot 23, Gulshan Avenue, Gulshan-2, Dhaka-1212",
+    "company": "Walton Electronics Ltd",
+    "created_at": "2025-10-21T21:00:19.577406"
+  },
+  {
+    "id": "client_003",
+    "name": "Kamal Hossain",
+    "email": "k.hossain@gmail.com",
+    "phone": "+880-1923-456789",
+    "address": "Flat 3B, Uttara Apartment, Sector 7, Uttara, Dhaka-1230",
+    "company": null,
+    "created_at": "2025-10-26T21:00:19.577409"
+  },
+  {
+    "id": "client_004",
+    "name": "Nasrin Akter",
+    "email": "nasrin.akter@bdjobs.com",
+    "phone": "+880-1734-567890",
+    "address": "House 78, CDA Avenue, Nasirabad, Chittagong-4220",
+    "company": "BD Digital Services",
+    "created_at": "2025-10-31T21:00:19.577411"
+  },
+  {
+    "id": "client_005",
+    "name": "Habibur Rahman",
+    "email": "habib.rahman@yahoo.com",
+    "phone": "+880-1645-678901",
+    "address": "Mirpur-10, Block C, Road 5, Dhaka-1216",
+    "company": null,
+    "created_at": "2025-11-05T21:00:19.577412"
+  }
+]
